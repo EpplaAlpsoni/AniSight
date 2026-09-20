@@ -1,54 +1,104 @@
-# AniSight
+# Madomi
 
-A native desktop GUI for [ani-cli](https://github.com/pystardust/ani-cli), built with Python and PySide6.
+A native desktop anime browser and player frontend built with Python and PySide6.
 
-AniSight aims to provide a full graphical experience for discovering and watching anime while using ani-cli as the playback/backend layer.
+Madomi is designed as a full desktop application rather than a simple command generator. It provides a visual interface for discovering anime, browsing metadata, viewing series information, and launching playback through the ani-cli / mpv ecosystem.
+
+> Formerly known as AniSight.
 
 ## ✨ Features
 
-> AniSight is currently in early development. Features listed here are planned or actively being built.
+Madomi is still in development, but the current project includes:
 
-- 🔎 Search for anime
-- 🖼️ Anime artwork and information
-- 📺 Series pages with episode lists
-- ▶️ Watch episodes through ani-cli / mpv
-- 🎙️ Sub and dub selection
-- ⚙️ Playback and quality options
-- 📜 Watch history
-- ⬇️ Download management
-- 🏠 Recently watched and other home-page sections
-- 🎨 Native Qt/PySide6 interface
-- 🐧 Linux / SteamOS support
+- Home page with featured and trending anime
+- Anime search
+- Poster and banner artwork
+- Anime details pages
+- Episode selection
+- Playback through ani-cli / mpv
+- Native PySide6 / Qt interface
+- Custom sidebar navigation
+- History and settings sections
+- Linux and SteamOS support
+- AniList-powered metadata and discovery
+- Custom Madomi branding and UI
+
+More features are planned as development continues.
 
 ## 🛠️ Built With
 
 - **Python**
 - **PySide6 / Qt**
-- **ani-cli** — anime search, sources, playback, downloads, and related backend functionality
-- **mpv** — media playback
+- **ani-cli**
+- **mpv**
+- **AniList data**
 
-## 🚧 Status
+## 🚧 Project Status
 
-AniSight is currently being developed and is **not ready for general use yet**.
+Madomi is currently an experimental work in progress and is **not considered release-ready**.
 
-The project is being built from the ground up as a genuine desktop application rather than a graphical wrapper that simply generates terminal commands.
+The project is being built as a genuine graphical desktop client, with its own navigation, layouts, media views, playback flow, and visual identity.
 
-## 📦 Installation
+Development may change structure, behavior, or design significantly between commits.
 
-Installation instructions will be added once the first usable release is available.
+## 📦 Running From Source
 
-For development, clone the repository and set up the Python development environment described in the project documentation as it becomes available.
+Clone the repository:
+
+```bash
+git clone https://github.com/EpplaAlpsoni/AniSight.git
+cd AniSight
+```
+
+Install the Python dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+Then run:
+
+```bash
+python main.py
+```
+
+Additional external dependencies such as **ani-cli** and **mpv** may be required for playback functionality.
+
+## 🗂️ Project Structure
+
+```text
+.
+├── main.py                  # Main Madomi interface
+├── ani_cli_integration.py   # ani-cli integration/backend logic
+├── stream_proxy.py          # Streaming support
+├── madomi_mpv_capture       # mpv integration helper
+├── requirements.txt
+├── tests/
+└── *.svg                    # Madomi UI and navigation assets
+```
+
+## 🎨 Design
+
+Madomi uses a dark, media-focused interface built around large artwork, featured banners, compact navigation, and native Qt widgets.
+
+The project takes inspiration from modern media applications while keeping its own visual identity.
 
 ## 🤝 Contributing
 
-Contributions, ideas, bug reports, and feature suggestions are welcome once the project reaches a more usable development stage.
+Madomi is still evolving quickly, so large-scale contributions may be difficult to coordinate right now.
+
+Bug reports, suggestions, ideas, and feedback are still welcome.
 
 ## 📄 License
 
-AniSight is licensed under the **MIT License**. See the LICENSE file for details.
+Madomi is licensed under the **MIT License**.
+
+See [`LICENSE`](LICENSE) for details.
 
 ## ⚠️ Disclaimer
 
-AniSight is an independent project and is not affiliated with, endorsed by, or officially connected to the ani-cli project or its contributors.
+Madomi is an independent project and is not affiliated with or endorsed by ani-cli, AniList, mpv, or their contributors.
 
-AniSight does not provide or host anime content. It provides a graphical interface around supported tools and services.
+Madomi does not host anime or video content. It provides a graphical frontend that interacts with external tools and services.
+
+Users are responsible for complying with the laws and terms applicable in their location and to the services they use.
