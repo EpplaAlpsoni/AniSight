@@ -52,7 +52,7 @@ Clone the repository:
 
 ```bash
 git clone https://github.com/EpplaAlpsoni/AniSight.git
-cd AniSight
+cd Madomi
 ```
 
 Install the Python dependencies:
