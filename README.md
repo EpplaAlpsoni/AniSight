@@ -83,6 +83,12 @@ Madomi uses a dark, media-focused interface built around large artwork, featured
 
 The project takes inspiration from modern media applications while keeping its own visual identity.
 
+## 💙 Credits & Inspiration
+
+A major source of inspiration for Madomi is **[ani-gui](https://github.com/JoaoPucci/ani-gui)** by **JoaoPucci**.
+
+Its approach to anime discovery, desktop presentation, navigation, and overall media-focused experience was a major inspiration for Madomi's direction and design. Madomi is a separate project with its own implementation and identity, but ani-gui deserves significant credit for helping inspire what Madomi became.
+
 ## 🤝 Contributing
 
 Madomi is still evolving quickly, so large-scale contributions may be difficult to coordinate right now.
@@ -97,7 +103,7 @@ See [`LICENSE`](LICENSE) for details.
 
 ## ⚠️ Disclaimer
 
-Madomi is an independent project and is not affiliated with or endorsed by ani-cli, AniList, mpv, or their contributors.
+Madomi is an independent project and is not affiliated with or endorsed by ani-cli, AniList, mpv, ani-gui, or their contributors.
 
 Madomi does not host anime or video content. It provides a graphical frontend that interacts with external tools and services.
 
