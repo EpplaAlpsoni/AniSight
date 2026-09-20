@@ -8,6 +8,10 @@ If you've used **[ani-gui](https://github.com/JoaoPucci/ani-gui)** before, this 
 
 > Formerly known as AniSight.
 
+## ⚠️ Warning
+
+This was built on SteamOS, so there is no guarantee it'll work on other systems like **MacOS, Windows,** or **Arch.**
+
 ## ✨ Features
 
 Madomi is still in development, but the current project includes:
@@ -23,7 +27,6 @@ Madomi is still in development, but the current project includes:
 - History and settings sections
 - Linux and SteamOS support
 - AniList-powered metadata and discovery
-- Custom Madomi branding and UI
 
 More features are planned as development continues.
 
