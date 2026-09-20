@@ -87,8 +87,6 @@ The project takes inspiration from modern media applications while keeping its o
 
 A major source of inspiration for Madomi is **[ani-gui](https://github.com/JoaoPucci/ani-gui)** by **JoaoPucci**.
 
-Its approach to anime discovery, desktop presentation, navigation, and overall media-focused experience was a major inspiration for Madomi's direction and design. Madomi is a separate project with its own implementation and identity, but ani-gui deserves significant credit for helping inspire what Madomi became.
-
 ## 🤝 Contributing
 
 Madomi is still evolving quickly, so large-scale contributions may be difficult to coordinate right now.
