@@ -4,6 +4,8 @@ A native desktop anime browser and player frontend built with Python and PySide6
 
 Madomi is designed as a full desktop application rather than a simple command generator. It provides a visual interface for discovering anime, browsing metadata, viewing series information, and launching playback through the ani-cli / mpv ecosystem.
 
+If you've used **[ani-gui](https://github.com/JoaoPucci/ani-gui)** before, this is basically that but uses **[ani-cli](https://github.com/pystardust/ani-cli)** instead of 3rd party sources.
+
 > Formerly known as AniSight.
 
 ## ✨ Features
