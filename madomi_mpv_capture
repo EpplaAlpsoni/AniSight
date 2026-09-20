@@ -1,0 +1,17 @@
+#!/usr/bin/env python3
+"""Capture ani-cli's mpv-style arguments for Madomi's native player."""
+
+import json
+import sys
+
+
+def value(prefix):
+    return next((arg[len(prefix):] for arg in sys.argv[1:] if arg.startswith(prefix)), "")
+
+
+stream_url = next((arg for arg in reversed(sys.argv[1:]) if arg.startswith(("http://", "https://"))), "")
+print("MADOMI_STREAM:" + json.dumps({
+    "url": stream_url,
+    "referrer": value("--referrer="),
+    "subtitle": value("--sub-file="),
+}), flush=True)
